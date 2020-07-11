@@ -1,0 +1,30 @@
+Vikram is a professional thief, he is planning to rob a bank that day, but there are many locker room in that bank,
+there is a mechanism in the locker rooms is that, if a thief robs in adjacent rooms then the alert system will send 
+alert message to the police. so help him to rob accordingly and find how much money he can rob.
+(Check for the circular array)
+
+Input description:
+Get the money in that rooms as inputs in a array (Array posistion is the rooms and array elements is the money in that room)
+
+Output description:
+print the total amount he can rob
+
+Sample input:
+12 4 5 13
+
+Sample output:
+17
+
+Explanation:
+Vikram can steal at room1 and room3
+so 12+5=17.
+
+Sample input:
+3 4 23 54 61 23 100 101
+
+Sample output:
+187
+
+Explanation:
+Vikram can steal at room1(3), room3(23), room5(61), room7(100)
+so, 3+23+61+100= 187
